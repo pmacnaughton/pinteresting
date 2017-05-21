@@ -1,0 +1,39 @@
+body {
+  line-height: 1.5;
+  color: white;
+	
+  font-family: 'Lato', sans-serif;
+  background: url('download.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 500px;
+  margin: 40px;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+h1{
+ 	font-family: 'Rokkitt', serif;
+	font-size: 60px;
+	margin-bottom: -40px;
+	margin-top: -20px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+p{	
+	font-size: 18px;
+}
+
+a {
+	color: #BFE35B;
+	text-decoration: none;
+}
