@@ -7,9 +7,8 @@
   </head>
 
   <body>
-	 <%= link_to "Home", root_path %>
-	 <%= link_to "About Us", about_path %>
-  	 <%= yield %>
+    <%= render 'layouts/header' %>
+  	<%= yield %>
   	 
   </body>
 </html>

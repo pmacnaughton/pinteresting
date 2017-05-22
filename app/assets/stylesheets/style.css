@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 550px;
   margin: 40px;
   background: rgba(0,0,0,0.5);
   padding: 15px;
@@ -23,6 +23,7 @@ h1{
 	font-size: 60px;
 	margin-bottom: -40px;
 	margin-top: -20px;
+  line-height: 2;
 }
 
 h2{

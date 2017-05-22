@@ -1,2 +1,33 @@
-<h1>Welcome to my App</h1>
-<p>Sign up <%= link_to "here", "#"%>.</p>
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>About Anna</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900|Rokkitt:400,700" rel="stylesheet">
+		<%= stylesheet_link_tag "application.css" %>
+	</head>
+
+	<body>
+
+		<div class="container">
+			<!-- START HERE --> 
+			<h1>Welcome to my App</h1>
+			<p>Sign up <%= link_to "here", "#"%>.</p>
+			
+			<b></b>
+			<a href="https://github.com/onemonthrails" target=_blank>
+				<%= image_tag('github.png', :alt => "Github") %>
+			</a>
+			<a href="https://www.facebook.com/OneMonthRails" target=_blank>
+				<%= image_tag('facebook.png', :alt => "Facebook") %>
+			</a>
+			<a href="https://twitter.com/onemonthrails" target=_blank>
+				<%= image_tag('twitter.png', :alt => "Twitter") %>
+			</a>
+			<!-- END HERE --> 
+		</div><!-- .container --> 
+
+	</body>
+</html>
