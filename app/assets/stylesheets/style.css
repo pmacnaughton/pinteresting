@@ -38,3 +38,11 @@ a {
 	color: #BFE35B;
 	text-decoration: none;
 }
+
+input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}

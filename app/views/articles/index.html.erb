@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Pinteresting</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Rokkitt:400,700" rel="stylesheet">
+    <%= stylesheet_link_tag "application.css" %>
+  </head>
+
+  <body>
+
+<div class="container">
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Text</th>
+    </tr>
+    <% @articles.each do |article| %>
+      <tr>
+      <td><%= article.title %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Show', article_path(article) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article) %></td>
+    </tr>
+    <% end %>
+  <table>
+
+
+  <p><%= link_to 'New Article', new_article_path %></p>
+  <p><%= link_to 'Back', articles_path %></p>
+</div>
+
+
+  </body>
+</html>
